@@ -15,11 +15,11 @@
   branch = auto
 [core]
   excludesfile = ~/.gitignore
-  editor = sub
+  editor = vim
   autocrlf = input
 [apply]
   whitespace = nowarn
 [format]
   pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
 [push]
-	default = simple
+  default = simple
